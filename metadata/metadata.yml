@@ -1,5 +1,5 @@
 metadata_version: 1
-name: aind-capsule-template
-description: Basic structure of a capsule to be customized as needed.
+name: aind-smartspim-template-v1-combine
+description: Code to combine multiple registered images into a template
 authors:
 - name: AIND
