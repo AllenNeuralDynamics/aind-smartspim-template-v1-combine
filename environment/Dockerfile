@@ -1,5 +1,6 @@
-# hash:sha256:42e1a47034da919a39b31a64d0f79cb5c7ae572d60eaa0495ac8fd771f23187e
-FROM registry.codeocean.allenneuraldynamics.org/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04
+# hash:sha256:02575b87ef9fb9bab863dd678d7d9f26e86fad554de6a042e988b589a21bee63
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
