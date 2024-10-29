@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"base_image": "codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04",
+	"options": {
+		"git_ask_pass": true
+	},
+	"installers": {
+		"pip": {
+			"packages": [
+				{
+					"name": "antspyx",
+					"version": "0.4.2"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
+	}
+}
